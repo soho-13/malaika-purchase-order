@@ -1,0 +1,118 @@
+﻿,Purchase Order,Product,Variant,SKU,PO Date,Quantity,Cost,Total Cost,comment_x,status_x,date_x,comment_y,status_y,date_y,comment,status,date,row_colour
+0,21817,SHASHIKO LINEN NAPKIN,ecru / coral,SHA-NP-33-14,17/09/2024,8,"14,00","112,00",,,,,,,nan,,,
+1,21834,PLAIN WHITE BEDDING,Pillow Case / King (90cm x 50cm),PW-KPC-00,05/11/2024,2,"13,00","26,00",,,,,,,nan,,,
+2,21837,CELESTIAL BIRDS PLACEMAT,ecru,CEL-PLAC-33,11/11/2024,2,,,,,,,,,nan,,,
+3,21837,CELESTIAL BIRDS PLACEMAT,pink,CEL-PLAC-11,11/11/2024,2,,,,,,,,,nan,,,
+4,21837,CELESTIAL BIRDS PLACEMAT,teal,CEL-PLAC-15,11/11/2024,2,,,,,,,,,nan,,,
+5,21837,CROCHET PLACEMAT,terracotta,CR-PLAC-56,11/11/2024,1,,,,,,,,,nan,,,
+6,21837,DAKHIRA NAPKIN,aqua,DAKH-NP-17,11/11/2024,2,,,,,,,,,nan,,,
+7,21837,DAKHIRA NAPKIN,pink,DAKH-NP-11,11/11/2024,2,,,,,,,,,nan,,,
+8,21837,OTTOMAN FEATHER COCKTAIL NAPKINS (Set of 6),terracotta,OTF-CNP-73,11/11/2024,6,,,,,,,,,nan,,,
+9,21837,LUXOR PALM GUEST TOWEL (Set of 2),Default Title,LXPL-GUTW-82,11/11/2024,1,,,,,,,,,nan,,,#FFFF00
+10,21844,CHILDREN’S COSMOS CUSHION COVER,Cosmos,CM-BS,08/12/2024,1,"14,00","14,00",,,,,,,nan,,,#FFFF00
+11,21844,SHASHIKO BEDDING,Duvet Cover / Twin Long (155cm x 220cm) / blue,SHA-TNDL-20,08/12/2024,1,"104,00","104,00",,,,,,,nan,,,#FFFF00
+12,21861,BIRDLIFE COCKTAIL NAPKINS (Set of 6),Default Title,BIR-CNP,07/02/2025,10,"11,00","110,00",,,,,,,nan,,,#FFFF00
+13,21861,SHASHIKO LINEN NAPKIN,taupe / ivory,SHA-NP-03-33,07/02/2025,10,"14,00","140,00",,,,,,,nan,,,#FFFF00
+14,21861,SHASHIKO LINEN PLACEMAT,taupe / ivory,SHA-PLAC-03-33,07/02/2025,10,"11,00","110,00",,,,,,,nan,,,#FFFF00
+15,21862,ROYAL PALM LINEN CUSHION COVER special size,40cm x 85cm,LNPL-RTCU-40-85,11/02/2025,1,"33,00","33,00",,,,,,,nan,,,
+16,21863,OTTOMAN VASE TABLECLOTH SPECIAL SIZE,Cinnamon / 350cm x 150cm,,12/02/2025,1,"207,00","207,00",,,,,,,nan,,,#FFFF00
+17,21864,CROCHET PLACEMAT,terracotta,CR-PLAC-56,13/02/2025,2,"13,00","26,00",,,,,,,nan,,,
+18,21864,OTTOMAN FEATHER GUEST TOWEL (Set of 2),teal,OTF-GUTW-15,13/02/2025,2,"17,00","34,00",,,,,,,nan,,,
+19,21864,OTTOMAN FEATHER GUEST TOWEL (Set of 2),terracotta,OTF-GUTW-73,13/02/2025,2,"17,00","34,00",,,,,,,nan,,,
+20,21864,OTTOMAN FEATHER NAPKIN,teal,OTF-NP-15,13/02/2025,6,"9,00","54,00",,,,,,,nan,,,#FFFF00
+21,21864,FOLK NAPKIN (Set of 6),Default Title,FOLK-NP-82,13/02/2025,1,"48,00","48,00",,,,,,,nan,,,
+22,21864,OTTOMAN FEATHER COCKTAIL NAPKINS (Set of 6),teal,OTF-CNP-15,13/02/2025,2,"15,00","30,00",,,,,,,nan,,,
+23,21864,DAKHIRA NAPKIN,aqua,DAKH-NP-17,13/02/2025,6,"9,00","54,00",,,,,,,nan,,,
+24,21864,STELLAR CUSHION COVER,blue,STL-CU-20,13/02/2025,1,"16,00","16,00",,,,,,,nan,,,
+25,21864,STELLAR CUSHION COVER,pink,STL-CU-11,13/02/2025,2,"16,00","32,00",,,,,,,nan,,,
+26,21864,STELLAR CUSHION COVER,teal,STL-CU-15,13/02/2025,2,"16,00","32,00",,,,,,,nan,,,
+27,21867,BEE NAPKIN,orange / pink,BEE-NP-04/11,02/03/2025,12,"9,00","108,00",,,,,,,nan,,,#FFFF00
+28,21867,FEATHER STITCH BEDDING,Flat Sheet / King Size (275cm x 290cm) / beige,FTH-KS-12,02/03/2025,2,"55,00","110,00",,,,,,,nan,,,#FFFF00
+29,21867,FEATHER STITCH BEDDING,Duvet Cover / Super King (260cm x 220cm) / beige,FTH-SKD-12,02/03/2025,2,"91,00","182,00",,,,,,,nan,,,#FFFF00
+30,21867,FEATHER STITCH BEDDING,Pillow Case / Queen/Single (75cm x 50cm) / beige,FTH-QSLPC-12,02/03/2025,6,"16,00","96,00",,,,,,,nan,,,#FFFF00
+31,21867,BIRDLIFE COCKTAIL NAPKINS (Set of 6),Default Title,BIR-CNP,02/03/2025,5,"11,00","55,00",,,,,,,nan,,,#FFFF00
+32,21870,FEATHER STITCH BEDDING,Pillow Case / Queen/Single (75cm x 50cm) / beige,FTH-QSLPC-12,12/03/2025,2,"16,00","32,00",,,,,,,nan,,,#FFFF00
+33,21870,ZIG ZAG NAPKIN,green,ZZ-NP-19,12/03/2025,28,"6,00","168,00",,,,,,,nan,,,#FFFF00
+34,21870,RANIA (DRAGONFLY) BEDDING,Pillow Case / Large Square (80cm x 80cm) / white,RN-SQPCXL-00,12/03/2025,2,"21,00","42,00",,,,,,,nan,,,#FFFF00
+35,21870,IBIS NAPKIN,Default Title,IB-NP,12/03/2025,7,"9,00","63,00",,,,,,,nan,,,
+36,21870,HOOPOE NAPKIN,Default Title,HOP-NP,12/03/2025,4,"9,00","36,00",,,,,,,nan,,,
+37,21870,PALM TREE BEDDING,Duvet Cover / Queen F (240cm x 220cm) / white,PL-QDF-00,12/03/2025,1,"90,00","90,00",,,,,,,nan,,,#FFFF00
+38,21870,PALM TREE BEDDING,Pillow Case / Small Queen / Single G (60cm x 40cm) / white,PL-SQSLPCG-00,12/03/2025,2,"16,00","32,00",,,,,,,nan,,,#FFFF00
+39,21873,SINAI PIPED BEDDING,Pillow Case / Queen/Single G (40cm x 80cm) / beige,PP-QSLPCG-12,16/03/2025,4,"12,00","48,00",,,,,,,nan,,,
+40,21873,PALM TREE TABLECLOTH,ecru / beige,PL-TBC-33-12,16/03/2025,1,"136,00","136,00",,,,,,,nan,,,
+41,21874,TERRYCLOTH TOWELS,Bath Towel (100cm x 180cm) / white,BTHTW-00,17/03/2025,2,"16,00","32,00",,,,,,,nan,,,#FF0000
+42,21874,TERRYCLOTH TOWELS,Face Towel (33cm x 33cm) / white,FCTW-00,17/03/2025,2,"1,00","2,00",,,,,,,nan,,,#FFFF00
+43,21874,TERRYCLOTH TOWELS,Hand Towel (50cm x 100cm) / white,HDTW-00,17/03/2025,2,"5,00","10,00",,,,,,,nan,,,#FF0000
+44,21875,SWIMWEAR BAG,Bikini Bag coral,BK-BAG-EMB-14,25/03/2025,2,"9,00","18,00",,,,,,,nan,,,#FFFF00
+45,21875,SWIMWEAR BAG,Bikini Bag olive,BK-BAG-EMB-53,25/03/2025,2,"9,00","18,00",,,,,,,nan,,,#FFFF00
+46,21875,LUXOR PALM GUEST TOWEL (Set of 2),Default Title,LXPL-GUTW-82,25/03/2025,3,"17,00","51,00",,,,,,,nan,,,#FFFF00
+47,21875,CAIRO PALM GUEST TOWEL (Set of 2),Default Title,CAIPL-GUTW,25/03/2025,4,"17,00","68,00",,,,,,,nan,,,
+48,21875,BEE BEDDING,Duvet Cover / Super King (260cm x 220cm) / yellow/grey,BEE-SKD-05,25/03/2025,1,"90,00","90,00",,,,,,,nan,,,
+49,21875,BEE BEDDING,Flat Sheet / King Size (275cm x 290cm) / yellow/grey,BEE-KS-05,25/03/2025,1,"62,00","62,00",,,,,,,nan,,,
+50,21875,BEE BEDDING,Pillow Case / King (90cm x 50cm) / yellow/grey,BEE-KPC-05,25/03/2025,4,"17,00","68,00",,,,,,,nan,,,
+51,21875,CAMEL TOILETRY BAG,gold / large,CA-TOBG-39,25/03/2025,3,"11,00","33,00",,,,,,,nan,,,#FFFF00
+52,21875,BEES PLACEMAT,multi colour,BEE-PLAC-33,25/03/2025,6,"12,00","72,00",,,,,,,nan,,,
+53,21875,DONKEY BEACH BAG,genzary,DO-BEBG-54,25/03/2025,2,"31,00","62,00",,,,,,,nan,,,#FFFF00
+54,21876,CHERRY BLOSSOM GUEST TOWEL (Set of 2),amber,CHBL-GUTW-05,07/04/2025,2,"19,00","38,00",,,,,,,nan,,,#FFFF00
+55,21876,CHERRY BLOSSOM GUEST TOWEL (Set of 2),pink,CHBL-GUTW-11,07/04/2025,2,"19,00","38,00",,,,,,,nan,,,#FFFF00
+56,21876,CHERRY BLOSSOM GUEST TOWEL (Set of 2),teal,CHBL-GUTW-15,07/04/2025,4,"19,00","76,00",,,,,,,nan,,,#FFFF00
+57,21876,HOME COLLECTION NAPKIN (Set of 3),Default Title,HOM-NP,07/04/2025,4,"27,00","108,00",,,,,,,nan,,,#FF0000
+58,21876,MARWA LINEN CONTRAST EDGE NAPKINS,red,OV-NP-33-16,07/04/2025,6,"4,00","24,00",,,,,,,nan,,,
+59,21876,MARWA LINEN CONTRAST EDGE NAPKINS,yellow,OV-NP-33-05,07/04/2025,6,"4,00","24,00",,,,,,,nan,,,
+60,21876,RED SEA BEACH TOWEL,teal,RESE-BETW-17,07/04/2025,6,"14,00","84,00",,,,,,,nan,,,#FFFF00
+61,21876,RED SEA BEACH TOWEL,terracotta,RESE-BETW-73,07/04/2025,3,"14,00","42,00",,,,,,,nan,,,#FFFF00
+62,21876,RED SEA BEACH TOWEL,white,RESE-BETW-00,07/04/2025,2,"14,00","28,00",,,,,,,nan,,,
+63,21876,FARIDA (PEACOCK) BEDDING,Pillow Case / Large Square (80cm x 80cm),FR-SQPCXL-12,07/04/2025,3,"21,00","63,00",,,,,,,nan,,,#FF0000
+64,21876,FARIDA (PEACOCK) BEDDING,Duvet Cover / Single (140cm x 200cm),FR-SLD-12,07/04/2025,1,"63,00","63,00",,,,,,,nan,,,#FF0000
+65,21876,MAMLUK CUSHION COVER,60cm x 40cm / amber,CO-CU-05,07/04/2025,2,"35,00","70,00",,,,,,,nan,,,
+66,21876,CHILDREN’S EMBROIDERED LAUNDRY BAG,Stars,STA-LABG-10,07/04/2025,1,"16,00","16,00",,,,,,,nan,,,
+67,21876,STARS COT BEDDING,Cot Duvet Cover,STA-CD-11,07/04/2025,1,"38,00","38,00",,,,,,,nan,,,
+68,21876,TULIP NAPKIN,amber,TU-NP-05,07/04/2025,18,"11,00","198,00",,,,,,,nan,,,
+69,21876,TULIP NAPKIN,red,TU-NP-16,07/04/2025,12,"11,00","132,00",,,,,,,nan,,,#FFFF00
+70,21876,TULIP NAPKIN,coral,TU-NP-14,07/04/2025,18,"11,00","198,00",,,,,,,nan,,,
+71,21876,TULIP NAPKIN,blue,TU-NP-20,07/04/2025,12,"11,00","132,00",,,,,,,nan,,,
+72,21877,PALM TREE BEDDING,Duvet Cover / Single (140cm x 200cm) / beige,PL-SLD-12,07/04/2025,2,"62,00","124,00",,,,,,,nan,,,#FF0000
+73,21877,PALM TREE BEDDING special size,Pillow Case / Austrian King (90cm x 70cm) / beige,PL-AKPC-12,07/04/2025,2,"21,00","42,00",,,,,,,nan,,,#FF0000
+74,21877,Montazah Bedding Special Design,Pillow Case / Small Cushion (30cm x 41cm) / Beige,,07/04/2025,2,"16,00","32,00",,,,,,,nan,,,#FF0000
+75,21877,PALM TREE BEDDING,Cushion Cover / Small (41cm x 30cm) / beige,PL-BS-12,07/04/2025,2,"14,00","28,00",,,,,,,nan,,,#FF0000
+76,21877,FEATHER STITCH BEDDING SPECIAL DESIGN,Duvet Cover / Single (140cm x 200cm) / beige,FTH-SLD-12-special,07/04/2025,2,"63,00","126,00",,,,,,,nan,,,#FF0000
+77,21877,FEATHER STITCH BEDDING SPECIAL DESIGN,Pillow Case / Austrian King (90cm x 70cm) / beige,FTH-AKPC-12-special,07/04/2025,2,"17,00","34,00",,,,,,,nan,,,#FF0000
+78,21878,SINAI PIPED BEDDING,Duvet Cover / Twin Long (155cm x 220cm) / navy,PP-TNDL-02,07/04/2025,2,"51,00","102,00",,,,,,,nan,,,#FFFF00
+79,21878,SINAI PIPED BEDDING,Pillow Case / Large Square (80cm x 80cm) / navy,PP-SQPCXL-02,07/04/2025,3,"15,00","45,00",,,,,,,nan,,,#FFFF00
+80,21878,SINAI PIPED BEDDING,Pillow Case / Queen/Single G (40cm x 80cm) / navy,PP-QSLPCG-02,07/04/2025,1,"12,00","12,00",,,,,,,nan,,,#FFFF00
+81,21879,PALM TREE BEDDING special colour,Duvet Cover / Single (140cm x 200cm) / beige with dates in DMC 3847,PL-SLD-12-special-3847,07/04/2025,2,"62,00","124,00",,,,,,,nan,,,#FF0000
+82,21879,PALM TREE BEDDING special colour,Duvet Cover / Single (140cm x 200cm) / beige with dates in DMC 608,PL-SLD-12-special-608,07/04/2025,2,"62,00","124,00",,,,,,,nan,,,#FF0000
+83,21879,PALM TREE BEDDING special colour,Pillow Case / Large Square (80cm x80cm) / beige with dates in DMC 3847,PL-SQPCXL-12-special-3847,07/04/2025,2,"21,00","42,00",,,,,,,nan,,,#FF0000
+84,21879,PALM TREE BEDDING special colour,Pillow Case / Large Square (80cm x80cm) / beige with dates in DMC 608,PL-SQPCXL-12-special-608,07/04/2025,2,"21,00","42,00",,,,,,,nan,,,#FF0000
+85,21881,SHASHIKO BEDDING,Cushion Cover / Small (41cm x 30cm) / blue,SHA-BS-20,07/04/2025,2,"23,00","46,00",,,,,,,nan,,,#FF0000
+86,21881,SHASHIKO BEDDING,Pillow Case / Large Square (80cm x 80cm) / blue,SHA-SQPCXL-20,07/04/2025,4,"32,00","128,00",,,,,,,nan,,,#FF0000
+87,21881,SHASHIKO BEDDING SPECIAL Size,Duvet Cover / 135cm x 200cm / blue,SHA-SLD-20-special size,07/04/2025,4,"92,00","368,00",,,,,,,nan,,,#FF0000
+88,21882,TULIP NAPKIN,all blue,TU-NP-20o,07/04/2025,24,"11,00","264,00",,,,,,,nan,,,#FF0000
+89,21883,DONKEY BEACH BAG,genzary,DO-BEBG-54,22/04/2025,2,"31,00","62,00",,,,,,,nan,,,
+90,21883,CROCHET NAPKIN,terracotta,CR-NP-73,22/04/2025,12,"7,00","84,00",,,,,,,nan,,,
+91,21883,CHERRY BLOSSOM GUEST TOWEL (Set of 2),pink,CHBL-GUTW-11,22/04/2025,2,"19,00","38,00",,,,,,,nan,,,
+92,21883,CHERRY BLOSSOM GUEST TOWEL (Set of 2),amber,CHBL-GUTW-05,22/04/2025,2,"19,00","38,00",,,,,,,nan,,,
+93,21883,CHERRY BLOSSOM GUEST TOWEL (Set of 2),teal,CHBL-GUTW-15,22/04/2025,1,"19,00","19,00",,,,,,,nan,,,
+94,21883,SHASHIKO BEDDING,Cushion Cover / Small (41cm x 30cm) / blue,SHA-BS-20,22/04/2025,2,"23,00","46,00",,,,,,,nan,,,
+95,21883,ZIG ZAG NAPKIN,navy blue,ZZ-NP-02,22/04/2025,8,"6,00","48,00",,,,,,,nan,,,
+96,21883,BOUQUET NAPKIN,blue,BO-NP-20,22/04/2025,18,"11,00","198,00",,,,,,,nan,,,
+97,21883,BOUQUET NAPKIN,rosewood,BO-NP-66,22/04/2025,5,"11,00","55,00",,,,,,,nan,,,
+98,21883,SAMPLER BOUQUET MEZZE NAPKIN (Set of 6),Rosewood,OVB-CNP-66,22/04/2025,3,"26,00","78,00",,,,,,,nan,,,
+99,21883,DALLY NAPKIN,blues,DAL-NP-77,22/04/2025,3,"11,00","33,00",,,,,,,nan,,,
+100,21883,CROCHET NAPKIN,pink,CR-NP-11,22/04/2025,18,"7,00","126,00",,,,,,,nan,,,
+101,21883,CROCHET NAPKIN,teal,CR-NP-15,22/04/2025,18,"7,00","126,00",,,,,,,nan,,,
+102,21883,SCARAB COCKTAIL NAPKINS (Set of 6),light blue,SC-CNP-33-10,22/04/2025,1,"19,00","19,00",,,,,,,nan,,,
+103,21883,PLEATS LINEN TABLECLOTH,ecru,PLT-TBC-33-33,22/04/2025,1,"124,00","124,00",,,,,,,nan,,,
+104,21883,TILAPIA PLACEMAT,jade,TIL-PLAC-64,22/04/2025,6,"8,00","48,00",,,,,,,nan,,,
+105,21885,BEE BEDDING Special Colour,Duvet Cover / Queen Long (200cm x 220cm) / Pink/light silver,BEE-QDL-778/02,12/04/2025,1,"87,00","87,00",,,,,,,nan,,,
+106,21885,BEE BEDDING Special Colour,Pillow Case / Large Square (80cm x 80cm) / Pink/light silver,BEE-SQPCXL-778/02,12/04/2025,2,"21,00","42,00",,,,,,,nan,,,
+107,21885,BEE BEDDING Special Colour,Cushion Cover / Small Square (40cm x 40cm) / Pink/light silver,BEE-SSQCU-778/02,12/04/2025,2,"15,00","30,00",,,,,,,nan,,,
+108,21885,JERUSALEM BEDDING Special Colour,Duvet Cover / Queen Long (200cm x 220cm) / Blue/Teal,JS-QDL-930/503,12/04/2025,1,"138,00","138,00",,,,,,,nan,,,
+109,21885,JERUSALEM BEDDING Special Colour,Pillow Case / Large Square (80cm x 80cm) / Blue/Teal,JS-SQPCXL-930/503,12/04/2025,2,"31,00","62,00",,,,,,,nan,,,
+110,21885,JERUSALEM BEDDING Special Colour,Cushion Cover / Small Square (40cm x 40cm) / Blue/Teal,JS-SSQCU-930/503,12/04/2025,2,"19,00","38,00",,,,,,,nan,,,
+111,21885,SHASHIKO BEDDING SPECIAL COLOUR,Duvet Cover / Queen Long (200cm x 220cm) / dark grey,SHA-QDL-535,12/04/2025,1,"118,00","118,00",,,,,,,nan,,,
+112,21885,SHASHIKO BEDDING SPECIAL COLOUR,Pillow Case / Large Square (80cm x 80cm) / dark grey,SHA-SQPCXL-535,12/04/2025,2,"32,00","64,00",,,,,,,nan,,,
+113,21885,SHASHIKO BEDDING SPECIAL COLOUR,Cushion Cover / Small Square (40cm x 40cm) / dark grey,SHA-SSQCU-535,12/04/2025,2,"25,00","50,00",,,,,,,nan,,,
+114,21885,RANIA (DRAGONFLY) BEDDING,Cushion Cover / Small Square (40cm x 40cm) / teal,RN-SSQCU-15,12/04/2025,2,"15,00","30,00",,,,,,,nan,,,
+115,21885,RANIA (DRAGONFLY) BEDDING,Duvet Cover / Queen Long (200cm x 220cm) / teal,RN-QDL-15,12/04/2025,1,"87,00","87,00",,,,,,,nan,,,
+116,21885,RANIA (DRAGONFLY) BEDDING,Pillow Case / Large Square (80cm x 80cm) / teal,RN-SQPCXL-15,12/04/2025,2,"21,00","42,00",,,,,,,nan,,,
