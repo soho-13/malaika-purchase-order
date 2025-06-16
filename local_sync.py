@@ -24,6 +24,7 @@ def signal_handler(signum, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
+
 def sync_files():
     try:
         local_file = Path('updated_order_list.csv')
