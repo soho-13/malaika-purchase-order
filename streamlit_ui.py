@@ -2,6 +2,20 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
+# --- Simple password protection ---
+correct_password = "sunlight42"  # Du kannst das später beliebig ändern
+if "auth" not in st.session_state:
+    st.session_state["auth"] = False
+
+if not st.session_state["auth"]:
+    st.title("🔒 Access Protected")
+    password = st.text_input("Enter password:", type="password")
+    if password == correct_password:
+        st.session_state["auth"] = True
+        st.experimental_rerun()
+    else:
+        st.stop()
+
 st.set_page_config(layout="wide")
 st.title("Malaika Purchase Order Manager")
 
