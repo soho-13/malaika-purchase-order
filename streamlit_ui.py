@@ -2,21 +2,25 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-# --- Simple password protection ---
-correct_password = "sunlight42"  # Du kannst das später beliebig ändern
+st.set_page_config(layout="wide")
+
+# Password protection logic
+correct_password = "sunlight42"
 if "auth" not in st.session_state:
     st.session_state["auth"] = False
 
 if not st.session_state["auth"]:
     st.title("🔒 Access Protected")
     password = st.text_input("Enter password:", type="password")
-    if password == correct_password:
-        st.session_state["auth"] = True
-        st.experimental_rerun()
-    else:
-        st.stop()
+    if st.button("Login"):
+        if password == correct_password:
+            st.session_state["auth"] = True
+            st.experimental_rerun()
+        else:
+            st.error("Incorrect password")
+    st.stop()  # Stop execution if not authenticated
 
-st.set_page_config(layout="wide")
+# Main application (only runs if authenticated)
 st.title("Malaika Purchase Order Manager")
 
 # Custom CSS for highlighting
@@ -27,11 +31,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Load data
+# Initialize session state
 if 'df' not in st.session_state:
     try:
         st.session_state.df = pd.read_csv("updated_order_list.csv")
-        # Convert date columns with proper error handling
         date_columns = ['PO Date', 'ETD']
         for col in date_columns:
             if col in st.session_state.df.columns:
@@ -44,9 +47,8 @@ if 'rows_to_delete' not in st.session_state:
     st.session_state.rows_to_delete = set()
 
 def delete_row(idx):
-    st.session_state.rows_to_delete.add(idx)
-    # Update the dataframe immediately
     st.session_state.df = st.session_state.df.drop(index=idx)
+    st.session_state.rows_to_delete.add(idx)
 
 # Tabs for editing and viewing
 tab1, tab2 = st.tabs(["Edit View", "Full Table View"])
