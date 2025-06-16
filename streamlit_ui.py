@@ -15,7 +15,7 @@ if not st.session_state["auth"]:
     if st.button("Login"):
         if password == correct_password:
             st.session_state["auth"] = True
-            st.experimental_rerun()
+            st.rerun()  # Changed from st.experimental_rerun()
         else:
             st.error("Incorrect password")
     st.stop()  # Stop execution if not authenticated
@@ -94,7 +94,7 @@ with tab1:
             
             if st.button("🗑️ Delete Row", key=f"delete_{idx}"):
                 delete_row(idx)
-                st.experimental_rerun()
+                st.rerun()  # Changed from st.experimental_rerun()
             
             # Update dataframe
             st.session_state.df.at[idx, "ETD"] = etd
