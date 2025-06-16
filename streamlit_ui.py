@@ -127,5 +127,6 @@ with tab2:
         "Quantity", "ETD", "Comment", "Customer Order"
     ]
     
-    styled_df = df[display_columns].style.apply(highlight_rows, axis=1)
+    # Changed df to st.session_state.df
+    styled_df = st.session_state.df[display_columns].style.apply(highlight_rows, axis=1)
     st.dataframe(styled_df, use_container_width=True)
