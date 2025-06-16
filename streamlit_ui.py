@@ -28,29 +28,25 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load data
-try:
-    df = pd.read_csv("updated_order_list.csv")
-    
-    # Convert date columns with proper error handling
-    date_columns = ['PO Date', 'ETD']
-    for col in date_columns:
-        if col in df.columns:
-            # Convert to datetime and extract date only for display
-            df[col] = pd.to_datetime(df[col], errors='coerce').dt.date
-            
-    # Ensure all required columns exist
-    required_columns = [
-        "Purchase Order", "Product", "Variant", "SKU", "PO Date", 
-        "Quantity", "ETD", "Comment", "Customer Order"
-    ]
-    
-    for col in required_columns:
-        if col not in df.columns:
-            df[col] = ""
-            
-except Exception as e:
-    st.error(f"Error loading data: {str(e)}")
-    st.stop()
+if 'df' not in st.session_state:
+    try:
+        st.session_state.df = pd.read_csv("updated_order_list.csv")
+        # Convert date columns with proper error handling
+        date_columns = ['PO Date', 'ETD']
+        for col in date_columns:
+            if col in st.session_state.df.columns:
+                st.session_state.df[col] = pd.to_datetime(st.session_state.df[col], errors='coerce').dt.date
+    except Exception as e:
+        st.error(f"Error loading data: {str(e)}")
+        st.stop()
+
+if 'rows_to_delete' not in st.session_state:
+    st.session_state.rows_to_delete = set()
+
+def delete_row(idx):
+    st.session_state.rows_to_delete.add(idx)
+    # Update the dataframe immediately
+    st.session_state.df = st.session_state.df.drop(index=idx)
 
 # Tabs for editing and viewing
 tab1, tab2 = st.tabs(["Edit View", "Full Table View"])
@@ -58,24 +54,22 @@ tab1, tab2 = st.tabs(["Edit View", "Full Table View"])
 with tab1:
     st.write("Edit ETD, Comments, Quantity and Customer Order status below:")
     
-    # Keep track of rows to delete
-    rows_to_delete = []
-
-    for idx in df.index:
-        with st.expander(f"Order ID: {df.at[idx, 'Purchase Order']} — {df.at[idx, 'Product']} ({df.at[idx, 'SKU']})"):
+    # Display only non-deleted rows
+    for idx in st.session_state.df.index:
+        with st.expander(f"Order ID: {st.session_state.df.at[idx, 'Purchase Order']} — {st.session_state.df.at[idx, 'Product']} ({st.session_state.df.at[idx, 'SKU']})"):
             col1, col2, col3, col4 = st.columns(4)
             
             with col1:
                 etd = st.date_input(
                     f"ETD",
-                    df.at[idx, "ETD"] if pd.notna(df.at[idx, "ETD"]) else None,
+                    st.session_state.df.at[idx, "ETD"] if pd.notna(st.session_state.df.at[idx, "ETD"]) else None,
                     key=f"etd_{idx}"
                 )
             
             with col2:
                 comment = st.text_input(
                     "Comment",
-                    value=df.at[idx, "Comment"] if pd.notna(df.at[idx, "Comment"]) else "",
+                    value=st.session_state.df.at[idx, "Comment"] if pd.notna(st.session_state.df.at[idx, "Comment"]) else "",
                     key=f"comment_{idx}"
                 )
             
@@ -83,7 +77,7 @@ with tab1:
                 quantity = st.number_input(
                     "Quantity",
                     min_value=0,
-                    value=int(df.at[idx, "Quantity"]) if pd.notna(df.at[idx, "Quantity"]) else 0,
+                    value=int(st.session_state.df.at[idx, "Quantity"]) if pd.notna(st.session_state.df.at[idx, "Quantity"]) else 0,
                     key=f"quantity_{idx}"
                 )
             
@@ -91,31 +85,25 @@ with tab1:
                 customer_order = st.selectbox(
                     "Customer Order",
                     options=["", "Yes", "No"],
-                    index=0 if df.at[idx, "Customer Order"] == "" else 
-                          1 if df.at[idx, "Customer Order"] == "Yes" else 2,
+                    index=0 if st.session_state.df.at[idx, "Customer Order"] == "" else 
+                          1 if st.session_state.df.at[idx, "Customer Order"] == "Yes" else 2,
                     key=f"customer_order_{idx}"
                 )
             
-            # Add delete button for each row
             if st.button("🗑️ Delete Row", key=f"delete_{idx}"):
-                rows_to_delete.append(idx)
+                delete_row(idx)
+                st.experimental_rerun()
             
             # Update dataframe
-            df.at[idx, "ETD"] = etd
-            df.at[idx, "Comment"] = comment
-            df.at[idx, "Quantity"] = quantity
-            df.at[idx, "Customer Order"] = customer_order
-
-    # Remove marked rows
-    if rows_to_delete:
-        df = df.drop(rows_to_delete)
-        st.warning(f"Deleted {len(rows_to_delete)} row(s)")
-        rows_to_delete = []  # Reset the list
+            st.session_state.df.at[idx, "ETD"] = etd
+            st.session_state.df.at[idx, "Comment"] = comment
+            st.session_state.df.at[idx, "Quantity"] = quantity
+            st.session_state.df.at[idx, "Customer Order"] = customer_order
 
     # Save changes
     if st.button("Save Changes"):
         try:
-            df.to_csv("updated_order_list.csv", index=False)
+            st.session_state.df.to_csv("updated_order_list.csv", index=False)
             st.success("Changes saved successfully!")
         except Exception as e:
             st.error(f"Error saving changes: {str(e)}")
