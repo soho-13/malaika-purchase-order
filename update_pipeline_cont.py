@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the dataframes
-df_new = pd.read_csv("purchase_items.csv")
+df_new = pd.read_csv("purchase_items(38).csv")
 df_old = pd.read_csv("updated_order_list.csv")
 
 # Define merge keys and columns to keep
@@ -36,8 +36,8 @@ preserved_old = df_old[df_old.set_index(merge_keys).index.isin(
 )]
 
 # Initialize ETD, Comment, and Customer Order columns in new_only_records
-new_only_records.loc[:, 'ETD'] = ''
-new_only_records.loc[:, 'Comment'] = ''
+new_only_records['ETD'] = ''
+new_only_records['Comment'] = ''
 new_only_records.loc[:, 'Customer Order'] = ''
 
 # Select only the columns we want to keep
