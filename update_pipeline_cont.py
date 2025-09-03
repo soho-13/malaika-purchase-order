@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the dataframes
-df_new = pd.read_csv("purchase_items(38).csv")
+df_new = pd.read_csv("purchase_items(39).csv")
 df_old = pd.read_csv("updated_order_list.csv")
 
 # Define merge keys and columns to keep
